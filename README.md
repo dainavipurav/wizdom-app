@@ -22,9 +22,9 @@ A lightweight and efficient mobile application for reading books and listening t
 
 ## App Preview
 
-### 1. On Android [Watch on YouTube](https://youtube.com/shorts/EQwzOrv7uA4)
+### 1. On Android [Watch on YouTube](https://drive.google.com/file/d/1cJDSY-z31k3g-3EPWjdTBWvq7ViZyiAd/view?usp=drive_link)
 
-### 2. On iPhone [Watch on YouTube](https://youtube.com/shorts/lDj3Zg1zA2A)
+### 2. On iPhone [Watch on YouTube](https://drive.google.com/file/d/1lWCSckhb8iukivZKcjjaeAy4BVVI_bGg/view?usp=drive_link)
 
 ## Download
 

@@ -28,4 +28,4 @@ A lightweight and efficient mobile application for reading books and listening t
 
 ## Download
 
-### [Download APK](https://youtube.com/shorts/EQwzOrv7uA4)
+### [Download APK](https://drive.google.com/file/d/1_CzpFweYY0ODWR2QUM-gadqBYZUANX3E/view?usp=drive_link)

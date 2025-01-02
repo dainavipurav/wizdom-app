@@ -1,0 +1,3 @@
+# wizdom_app
+
+A new Flutter project.

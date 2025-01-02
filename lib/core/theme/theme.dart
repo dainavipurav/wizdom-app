@@ -14,6 +14,7 @@ abstract class AppTheme {
     error: AppColors.error,
     outline: AppColors.dividerColor,
     primaryFixedDim: AppColors.primaryFixedDim,
+    onPrimaryContainer: AppColors.onPrimaryContainer,
   );
 
   static final _cardTheme = CardThemeData(

@@ -18,7 +18,26 @@ class AppbarListItem extends StatelessWidget {
     if (value == null || value.toString().trim().isEmpty) {
       return IconButton(
         onPressed: onPressed,
-        icon: SvgPicture.asset(action.icon),
+        icon: Stack(
+          children: [
+            SvgPicture.asset(action.icon),
+            Positioned(
+              right: 0,
+              top: 0,
+              child: CircleAvatar(
+                backgroundColor: Theme.of(context).colorScheme.surface,
+                radius: 7,
+                child: Text(
+                  '1',
+                  style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      ),
+                ),
+              ),
+            ),
+          ],
+        ),
       );
     }
     return TextButton.icon(

@@ -113,8 +113,8 @@ class _DashboardState extends State<Dashboard> {
   }
 
   void _showDialog(String action) {
+    ScaffoldMessenger.of(context).clearSnackBars();
     if (action != AppbarAction.gift.name) {
-      ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context)
           .showSnackBar(SnackBar(content: Text('Pending...')));
       return;

@@ -18,4 +18,5 @@ abstract class AppColors {
   static const Color onSurface = Color(0xff393938);
   static const Color surfaceContainer = Color(0xffF5F5F5);
   static const Color dividerColor = Color(0xffC9C4D0);
+  static const Color onPrimaryContainer = Color(0xff333333);
 }

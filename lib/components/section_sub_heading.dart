@@ -10,6 +10,8 @@ class SectionSubHeading extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Text(
         heading,
+        maxLines: 1,
+        overflow: TextOverflow.ellipsis,
         style: Theme.of(context).textTheme.headlineSmall!.copyWith(
               fontWeight: FontWeight.w500,
             ),

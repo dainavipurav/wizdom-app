@@ -50,23 +50,6 @@ class BooksList extends StatelessWidget {
             itemCount: json.length,
           ),
         ),
-        // ListView.builder(
-        //   padding: const EdgeInsets.symmetric(horizontal: 16),
-        //   shrinkWrap: true,
-        //   physics: ClampingScrollPhysics(),
-        //   scrollDirection: Axis.horizontal,
-        //   itemBuilder: (context, index) => BookCard(
-        //     imageName: json[index]['image'] ?? '',
-        //     label: json[index]['label'] ?? '',
-        //     podcastType: json[index]['podcast_type'] != null &&
-        //             PodcastType.values
-        //                 .map((type) => type.name)
-        //                 .contains(json[index]['podcast_type'])
-        //         ? PodcastType.values.byName(json[index]['podcast_type']!)
-        //         : PodcastType.audio,
-        //   ),
-        //   itemCount: json.length,
-        // ),
       ],
     );
   }

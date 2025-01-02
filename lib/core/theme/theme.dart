@@ -12,6 +12,8 @@ abstract class AppTheme {
     primaryContainer: AppColors.primaryContainer,
     onPrimary: AppColors.whiteColor,
     error: AppColors.error,
+    outline: AppColors.dividerColor,
+    primaryFixedDim: AppColors.primaryFixedDim,
   );
 
   static final _cardTheme = CardThemeData(
@@ -68,6 +70,16 @@ abstract class AppTheme {
     insetPadding: EdgeInsets.all(46),
   );
 
+  static final _dividerTheme = DividerThemeData(
+    color: AppColors.dividerColor,
+    thickness: 1,
+    space: 0,
+  );
+
+  static final _bottomNavigationBarTheme = BottomNavigationBarThemeData(
+    backgroundColor: AppColors.surface,
+  );
+
   static final _textTheme = GoogleFonts.nunitoTextTheme().copyWith(
     bodyLarge: AppTextStyles.bodyLarge,
     bodyMedium: AppTextStyles.bodyMedium,
@@ -96,5 +108,7 @@ abstract class AppTheme {
     textTheme: _textTheme,
     dialogBackgroundColor: AppColors.surfaceContainer,
     dialogTheme: _dialogTheme,
+    dividerTheme: _dividerTheme,
+    bottomNavigationBarTheme: _bottomNavigationBarTheme,
   );
 }

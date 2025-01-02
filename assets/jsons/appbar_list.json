@@ -2,25 +2,18 @@
     "data": [
       {
         "value": "13",
-        "color": "0xff00ADFF",
-        "iconName": "stories",
-        "label": "Stories"
+        "action": "stories"
       },
       {
         "value": "2",
-        "color": "0xffFF9600",
-        "iconName": "streak",
-        "label": "Streak"
+        "action": "streak"
       },
       {
         "value": "711",
-        "color": "0xffFFC800",
-        "iconName": "coins",
-        "label": "Coins"
+        "action": "coins"
       },
       {
-        "iconName": "gift",
-        "label": "Gift"
+        "action": "gift"
       }
     ]
 }

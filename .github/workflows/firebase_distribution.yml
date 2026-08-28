@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  Deploy:
+  Build_Android_APK:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: "stable"
+          flutter-version: "3.27.0"
           cache: true
 
       - name: Clean all Dependencies
@@ -34,6 +35,13 @@ jobs:
       - name: Build Android APK
         run: flutter build apk --release
 
+
+jobs: 
+  needs: Build_Android_APK
+  Deploy_APK:
+    runs-on: ubuntu-latest
+    
+    steps:
       - name: Deploy to server via Username & Password
         uses: appleboy/scp-action@master
         with:

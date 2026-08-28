@@ -41,5 +41,6 @@ jobs:
           host: ${{ secrets.IP_ADDRESS }}
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          source: "build/app/outputs/flutter-apk/app-release.apk"
+          source: "/build/app/outputs/flutter-apk/app-release.apk"
           target: "/home/dainavi/learning/apks/"
+          strip_components: 4

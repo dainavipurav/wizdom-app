@@ -35,12 +35,10 @@ jobs:
       - name: Build Android APK
         run: flutter build apk --release
 
-
-jobs: 
-  needs: Build_Android_APK
   Deploy_APK:
+    needs: Build_Android_APK
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Deploy to server via Username & Password
         uses: appleboy/scp-action@master
